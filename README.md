@@ -14,7 +14,7 @@ This is a simple Todo List API built using Java Spring Boot. The API allows you 
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/your-username/todo-list.git
+git clone git@github.com:frustratedProton/todo.git
 ```
 
 2. Open the project in your preferred Java IDE (e.g., IntelliJ, Eclipse).
@@ -23,6 +23,14 @@ git clone https://github.com/your-username/todo-list.git
 
 4. The application will start a server on a specified port (e.g., localhost:8080).
 
+OR
+
+1. Download the [ToDo-0.0.1-SNAPSHOT.jar](target%2FToDo-0.0.1-SNAPSHOT.jar).
+
+2. Run the JAR using Maven using the following
+```java
+java -jar build/libs/ToDo-0.0.1-SNAPSHOT.jar
+```
 ## How It Works
 
 - The API provides endpoints for handling CRUD operations on tasks.
